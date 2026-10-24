@@ -9,7 +9,7 @@ import math
 # print ((-b + (b**2 - 4*a*c)**1/2)/(2*a))
 # print ((-b - (b**2 - 4*a*c)**1/2)/(2*a))
 
-s = "hello world!"
+# s = "hello world!"
 # print(len(s))  #12
 # print(s[0])
 # print(s[10])
@@ -28,9 +28,16 @@ s = "hello world!"
 # else :
 #     print("为了自己的小命，还是别打了。")
 
+user_weight = float(input("您的体重是(kg)： "))
+user_height = float(input("您的身高是(m):  "))
+bmi = user_weight / (user_height ** 2)
 
+print("您的体重是："+ str(bmi))
 
-
-
-
+if bmi < 18.5:
+    print("偏瘦")
+elif 18.5 < bmi <= 25:
+    print("正常")
+elif 25 < bmi <= 30:
+    print("偏胖")
 
