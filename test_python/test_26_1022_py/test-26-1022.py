@@ -28,16 +28,69 @@ import math
 # else :
 #     print("为了自己的小命，还是别打了。")
 
-user_weight = float(input("您的体重是(kg)： "))
-user_height = float(input("您的身高是(m):  "))
-bmi = user_weight / (user_height ** 2)
+# user_weight = float(input("您的体重是(kg)： "))
+# user_height = float(input("您的身高是(m):  "))
+# bmi = user_weight / (user_height ** 2)
+#
+# print("您的体重是："+ str(bmi))
+#
+# if bmi < 18.5:
+#     print("偏瘦")
+# elif 18.5 < bmi <= 25:
+#     print("正常")
+# elif 25 < bmi <= 30:
+#     print("偏胖")
 
-print("您的体重是："+ str(bmi))
+# shopping_list = []
+# shopping_list.append("原道洛基")
+# shopping_list.append("拓品dx52")
+# shopping_list.append("HD490PRO")
+#
+# print(shopping_list)
+# print(len(shopping_list))
+# print(shopping_list[0])
+#
+# price = [2899,1639,2654]
+# max_price = max(price)
+# min_price = min(price)
+# sorted_price = sorted(price)
+# print(max_price)
+# print(min_price)
+# print(sorted_price)
 
-if bmi < 18.5:
-    print("偏瘦")
-elif 18.5 < bmi <= 25:
-    print("正常")
-elif 25 < bmi <= 30:
-    print("偏胖")
+# dict = {"ci1":"jpui1",
+#         "ci2":"jpui2",
+#         "ci3":"jpui3"}
+# dict["xbtm1"] = "jpuiqmmfhkohc1"
+# dict["xbtm2"] = "jpuiqmmfhkohc2"
+# dict["xbtm3"] = "jpuiqmmfhkohc3"
+# dict["xbtm4"] = "jpuiqmmfhkohc4"
+# dict["xbtm5"] = "jpuiqmmfhkohc5"
+# dict["xbtm6"] = "jpuiqmmfhkohc6"
+#
+# query = input("请输入您要查询的值:")
+# if query in dict:
+#     print("您查询的" + query + "含义如下")
+#     print(dict[query])
+# else:
+#     print("您查询的此条暂时未收录")
+#     print("本词典共收录" + str(len(dict)) + "个词条")
 
+# dict = {"staff1":36,
+#         "staff2":37,
+#         "staff3":38}
+# for staff_id, temperature in dict.items():
+#     if temperature > 37:
+#         print(staff_id)
+
+# total = 0
+# for i in range(1,100):
+#     total = total + i
+# print(total)
+
+i = 0
+i = (input("请输入数字"))
+b = 0
+
+while i!= "q":
+    b = (input())
