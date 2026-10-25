@@ -88,9 +88,47 @@ import math
 #     total = total + i
 # print(total)
 
-i = 0
-i = (input("请输入数字"))
-b = 0
+# print("一个计算器程序")
+# user_input = 0
+# user_input = (input("请输入数字(输入q停止）"))
+# time = 0
+# num = 0
+# average = 0
+# while user_input != "q":
+#     time += 1
+#     num += float(user_input)
+#     user_input = (input("请输入数字(输入q停止）"))
+# if num == 0:
+#     average = 0
+# else:
+#     average = num / time
+# print("平均数为" + str(average))
 
-while i!= "q":
-    b = (input())
+def calculate_sector(central_angle,radius,):
+    sector_area = central_angle / 360 * 3.14 * radius ** 2
+    print(f"此扇形面积为{sector_area}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
